@@ -1,8 +1,11 @@
 import './App.css';
 import { useState } from 'react';
 
-function App() {
-  const [hadith, setHadith] = useState("");
+const s = await gethadith()
+
+ function App() {
+
+  const [hadith, setHadith] = useState(s);
 
   async function clickHnadler(){
     const hd = await gethadith();

@@ -22,7 +22,7 @@ button{
   bottom: 0;
   margin: 20px;
   background-color: #003566;
-  color: #ffc300;
+  color: white;
   outline: 0;
   padding: 10px;
   border: 0;
@@ -37,9 +37,9 @@ button:active{
   border: 1px solid #ffc300;
 }
 .text{
-  color: #ffc300;
+  color: white;
   align-self: flex-start;
-  font-size: larger;
+  font-size: 1.3rem;
   align-self: center;
   padding: 10px;
 }
